@@ -1,0 +1,36 @@
+/* ADMIN LAYOUT */
+#contentSharerAdminForm select { padding: 0;}
+#contentSharerAdminForm input[type=text] { width: 300px; border: 1px solid #999; }
+#contentSharerAdminForm input[type=checkbox] { margin: -2px 5px 0 0; }
+#contentSharerAdminForm input.required{border: 1px solid #ff0000 !important;}
+#contentSharerAdminForm .network { height: 27px;  padding: 5px 0 0 40px; width: 200px; float: left;}
+#contentSharerAdminForm .network.twitter{ width: 100px; background: url(../img/spriteIcons.png) no-repeat scroll 0 0;}
+#contentSharerAdminForm .network.facebook{ width: 160px; background: url(../img/spriteIcons.png) no-repeat scroll 0 -36px; padding-top: 0; height: 32px;}
+#contentSharerAdminForm .network.googlePlusOne{ width: 250px; background: url(../img/spriteIcons.png) no-repeat scroll 0 -72px;}
+#contentSharerAdminForm .networkPanel { height: 60px;}
+
+#contentSharerAdminForm .session { font-weight: bold; border-left: 1px solid #ccc; border-bottom: 1px solid #ccc; width: 400px; border-radius: 2px 2px 2px 2px; padding: 3px 26px; margin: 15px 0; }
+#contentSharerAdminForm .session.networks { background: url('../img/spriteIconsMini.png') no-repeat scroll 5px -99px;}
+#contentSharerAdminForm .session.position { background: url('../img/spriteIconsMini.png') no-repeat scroll 5px -74px;}
+#contentSharerAdminForm .session.facebook { background: url('../img/spriteIconsMini.png') no-repeat scroll 5px -48px;}
+#contentSharerAdminForm .session.twitter { background: url('../img/spriteIconsMini.png') no-repeat scroll 5px 4px;}
+#contentSharerAdminForm .session.googlePlusOne { background: url('../img/spriteIconsMini.png') no-repeat scroll 5px -22px;}
+.donate {font-weight: bold; color: #ff9900; padding: 5px 0 0 10px;}
+/* USER LAYOUT */
+.contentSharer { width: 100%; float: right; clear: both; text-align: right; margin-bottom: 10px;}
+.contentSharerPanel { min-width: 440px; }
+.contentSharerPanel.left { float: left; }
+.contentSharerPanel.right { float: right; }
+iframe.fb-like{ float: left; display: block; overflow: hidden; margin-left: 15px; width: 120px;} 
+a.fb-share { float: left; display: block; width: 59px; height: 20px; display: block; width: 59px; height: 50px; }
+.twitter-share-button { float: left; display: block; }
+.contentSharerPanel .googlePlusOne { float: left; }
+.contentSharerPanel .googlePlusOne.small { width: 24px; }
+.contentSharerPanel .googlePlusOne.smallCount { width: 70px; }
+.contentSharerPanel .googlePlusOne.medium { width: 32px; }
+.contentSharerPanel .googlePlusOne.mediumCount { width: 90px; }
+.contentSharerPanel .googlePlusOne.standard { width: 38px; }
+.contentSharerPanel .googlePlusOne.standardCount { width: 106px; }
+.contentSharerPanel .googlePlusOne.tall { width: 50px; }
+.contentSharerPanel .googlePlusOne.tallCount { width: 50px; margin: 0 10px;}
+
